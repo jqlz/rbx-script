@@ -1,0 +1,8 @@
+if game.PlaceId == 893973440 or game.PlaceId == 1738581510 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/jqlz/rbx-script/refs/heads/main/FleeTheFacility"))()
+else
+game:GetService("StarterGui"):SetCore("SendNotification",{
+Title = "[ANNOUNCEMENT]",
+Text = "Join flee the facility to use this script."
+})
+end
